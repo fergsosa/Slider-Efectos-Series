@@ -67,7 +67,6 @@ header {
     text-shadow: 0 5px 10px #0004;
     display: flex;
     flex-direction: column;
-    /* background-color: rebeccapurple; */
 
     .author {
       font-weight: bold;
@@ -99,7 +98,6 @@ header {
 
       & button {
         border: none;
-        /* border: 2px solid #999; */
         background-color: #eee;
         letter-spacing: 3px;
         font-family: Poppins;
@@ -109,7 +107,6 @@ header {
 
         &:nth-child(2) {
           background-color: #f00;
-          /* border: 2px solid #4095; */
           color: #fff;
         }
       }
@@ -133,8 +130,6 @@ header {
 
   .item {
     width: 150px;
-    /* aspect-ratio: 9/14; */
-    /* flex-shrink: 0; */
     position: relative;
     border: 1px solid #0009;
     box-shadow: 0 0 5px #0007;
