@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="img/logo-peli-a.png" alt="" />
+        <nav>
+          <a href="">Home</a>
+          <a href="">Contacts</a>
+          <a href="">Info</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+      <!--* list item -->
+      <div class="list">
+        <div class="item">
+          <img src="img/messi.webp" />
+          <div class="content">
+            <div class="author">FER SOSA</div>
+            <div class="title">
+              <img src="img/messi-title.png" alt="" />
+            </div>
+            <div class="topic">2024 | Documental | 1 temporada</div>
+            <div class="des">
+              Sigue el épico recorrido de esta leyenda a través de cinco Copas
+              Mundiales que culminó con el triunfo en 2022. Conforme se
+              desarrolla el campeonato, Messi comparte reflexiones muy
+              personales sobre su carrera con su selección nacional y los retos
+              a los que se ha enfrentado.
+            </div>
+            <div class="buttons">
+              <button>VER MÁS</button>
+              <button>SUSCRÍBETE</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/see.webp" />
+          <div class="content">
+            <div class="author">FER SOSA</div>
+            <div class="title">
+              <img src="img/see-title.webp" alt="" />
+            </div>
+            <div class="topic">2019 | Drama | 3 temporadas</div>
+            <div class="des">
+              <!-- lorem 50 -->
+              En un futuro lejano, la humanidad ha perdido el sentido de la
+              vista. Jason Momoa, padre de unos gemelos que nacieron con la
+              mítica capacidad de ver, deberá proteger a su clan de una
+              despiadada reina. Con Dave Bautista y Alfre Woodard.
+            </div>
+            <div class="buttons">
+              <button>VER MÁS</button>
+              <button>SUSCRÍBETE</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/mankind.webp" />
+          <div class="content">
+            <div class="author">FER SOSA</div>
+            <div class="title">
+              <img src="img/mankind-title.png" alt="" />
+            </div>
+            <div class="topic">2019 | Drama | 4 temporadas</div>
+            <div class="des">
+              Imagina un mundo en eI que la carrera espacial nunca terminó. Esta
+              emocionante serie de Ronald D. Moore ("Outlander", "Battlestar
+              Galactica") se centra en eI competitivo mundo de la NASA, y la
+              vida personal y profesional de los astronautas.
+            </div>
+            <div class="buttons">
+              <button>VER MÁS</button>
+              <button>SUSCRÍBETE</button>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/lincoln.jpg" />
+          <div class="content">
+            <div class="author">FER SOSA</div>
+            <div class="title">
+              <img src="img/lincoln-title.png" alt="" />
+            </div>
+            <div class="topic">2022 | Drama | 2 temporadas</div>
+            <div class="des">
+              Después de un accidente, el famoso abogado de Los Ángeles Mickey
+              Haller vuelve a arrancar su carrera (y su coche de marca) cuando
+              acepta un caso de asesinato.
+            </div>
+            <div class="buttons">
+              <button>VER MÁS</button>
+              <button>SUSCRÍBETE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--* list thumnail -->
+      <div class="thumbnail">
+        <div class="item">
+          <img src="img/messi-s.webp" />
+          <div class="content">
+            <div class="title">Messi´s worlo cup</div>
+            <div class="description">Documental</div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/see-s.webp" />
+          <div class="content">
+            <div class="title">See</div>
+            <div class="description">Drama</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/mankind-s.webp" />
+          <div class="content">
+            <div class="title">For all marking</div>
+            <div class="description">Drama</div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/lincoln-s.webp" />
+          <div class="content">
+            <div class="title">el abogado de Lincoln</div>
+            <div class="description">Drama</div>
+          </div>
+        </div>
+      </div>
+      <!--* next prev -->
+
+      <div class="arrows">
+        <button id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="#000"
+          >
+            <path
+              d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+            ></path>
+          </svg>
+        </button>
+        <button id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="#000"
+          >
+            <path
+              d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <!--* time running -->
+      <div class="time"></div>
+    </div>
+
+    <script defer src="app.js"></script>
+  </body>
+</html>
